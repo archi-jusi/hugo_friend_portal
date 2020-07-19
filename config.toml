@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://archi-jusi.github.io"
 title   = "Welcome, I'm Julien"
 languageCode = "en-us"
 theme = "hello-friend-ng"
@@ -17,7 +17,7 @@ archetypeDir = "archetypes"
 contentDir   = "content"
 dataDir      = "data"
 layoutDir    = "layouts"
-publishDir   = "public"
+publishDir   = "docs"
 
 buildDrafts  = false
 buildFuture  = false

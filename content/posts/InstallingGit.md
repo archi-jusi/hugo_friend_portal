@@ -1,12 +1,12 @@
 ---
 author:
-  name: "Michael Henderson"
-date: 2014-09-28
-linktitle: Creating a New Theme
+  name: "Julien Simon"
+date: 2020-09-28
+linktitle: InstallingGit
 type:
 - post
 - posts
-title: Creating a New Theme
+title: Installing GIT
 weight: 10
 series:
 - Hugo 101
