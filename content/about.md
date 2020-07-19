@@ -1,19 +1,18 @@
 +++
-title = "About"
+title = "About me"
 date = "2014-04-09"
-aliases = ["about-us","about-hugo","contact"]
+aliases = ["about-me","bio","resume"]
 [ author ]
-  name = "Hugo Authors"
+  name = "Julien Simon"
 +++
 
-Hugo is the **world’s fastest framework for building websites**. It is written in Go.
+**Hello !**
 
-It makes use of a variety of open source projects including:
+Welcome on my geek mind,
 
-* https://github.com/russross/blackfriday
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+I'm Julien Simon, a system Enginner passionate about Linux, Automation and Cloud.
+I created this website to share with you my experience and to keep a track of my Devops Learning journey.
+
+If you want to know more about my IT Experience, please visit my [Linkedin](https://www.linkedin.com/in/julien-simon-66030665/)
 
 Learn more and contribute on [GitHub](https://github.com/gohugoio).

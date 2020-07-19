@@ -1,5 +1,5 @@
 baseURL = "https://example.com"
-title   = "Hello Friend NG"
+title   = "Welcome, I'm Julien"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 
@@ -37,7 +37,7 @@ disableHugoGeneratorInject = false
   posts = "/posts/:year/:month/:title/"
 
 [author]
-  name = "Jane Doe"
+  name = "Julien Simon"
 
 [blackfriday]
   hrefTargetBlank = true
@@ -54,11 +54,15 @@ disableHugoGeneratorInject = false
   dateformNumTime = "2006-01-02 15:04 -0700"
 
   # Metadata mostly used in document's head
-  description = "Nice theme for homepages and blogs"
-  keywords = ""
+  description = "Blog of Devops learner for Devops palawan"
+  keywords = "Devops"
   images = [""]
 
-  homeSubtitle = "Hello Friend NG"
+  homeSubtitle = "System Administrator, Devops and Cloud"
+  homeSubtitleQuote = "Learn, code and automate"
+  #homeSubtitlePassion = "Automation and cloud and keep it simple"
+
+  
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   # gitUrl = ""
@@ -90,42 +94,38 @@ disableHugoGeneratorInject = false
     msapplication = "#252627"
     theme = "#252627"
 
+# Based on layouts/partials/svg.html 
+
   [params.logo]
-    logoText     = "$ cd /home/"
+    logoText     = "Home:~ JulienSimon$"
     logoHomeLink = "/"
     # Set true to remove the logo cursor entirely.
     # logoCursorDisabled = false
     # Set to a valid CSS color to change the cursor in the logo.
     # logoCursorColor    = "#67a2c9"
     # Set to a valid CSS time value to change the animation duration, "0s" to disable.
-    # logoCursorAnimate  = "2s"
+    # logoCursorAnimate  = "4s"
 
   # Uncomment this if you want a portrait on your start page
-  # [params.portrait]
-  #   path     = "/img/image.jpg"
-  #   alt      = "Portrait"
-  #   maxWidth = "50px"
+  [params.portrait]
+      path     = "img/intro.png"
+      alt      = "Vador"
+      maxWidth = "400px"
 
   # Social icons
-  [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/"
 
   [[params.social]]
     name = "email"
-    url  = "mailto:nobody@example.com"
+    url  = "mailto:julsim13@yahoo.fr"
 
   [[params.social]]
     name = "github"
-    url  = "https://github.com/"
+    url  = "https://github.com/archi-jusi"
 
   [[params.social]]
     name = "linkedin"
-    url  = "https://www.linkedin.com/"
+    url  = "https://www.linkedin.com/in/julien-simon-66030665/"
 
-  [[params.social]]
-    name = "stackoverflow"
-    url  = "https://www.stackoverflow.com/"
 
 [languages]
   [languages.en]
@@ -141,9 +141,14 @@ disableHugoGeneratorInject = false
 [menu]
   [[menu.main]]
     identifier = "about"
-    name       = "About"
+    name       = "About me"
     url        = "about/"
   [[menu.main]]
     identifier = "posts"
     name       = "Posts"
     url        = "posts/"
+
+  [[menu.main]]
+    identifier = "project"
+    name = "Projects"
+    url = "project"
